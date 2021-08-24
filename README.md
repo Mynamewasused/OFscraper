@@ -1,9 +1,13 @@
 # Intro
 This is some quick code I put together to get all your images and videos downloaded from Onlyfans. A few quick disclaimers:
-1. I haven't done much testing for people using things other than chrome on a Windows PC.
+1. I haven't done any testing of the code other than with chrome on a Windows PC.
 2. It can crash your browser - sorry!
-3. If you have a lot of images and videos to download, the scraper will probably take a long time to finish.
+3. If you have a lot of images and videos to download, the tool will probably take a long time to finish.
 4. This code is safe and does nothing except click through your browser and copy links to images. It also cannot be used by users to download model content, it only works on the model side of onlyfans.
+
+If you used the tool and want to show some appreciation, here's a way you can do that!
+
+<a href='https://ko-fi.com/tiphelper' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='You&quot;re a cutie' />
 
 # How to use it
 1. Copy everything from [this page.](https://raw.githubusercontent.com/Mynamewasused/OFscraper/main/src/scraper.js)
