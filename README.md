@@ -7,7 +7,7 @@ This is some quick code I put together to get all your images and videos downloa
 
 If you used the tool and want to show some appreciation, here's a way you can do that!
 
-<a href='https://ko-fi.com/tiphelper' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='You&quot;re a cutie' />
+<a href='https://ko-fi.com/tiphelper' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt=''/></a>
 
 # How to use it
 1. Copy everything from [this page.](https://raw.githubusercontent.com/Mynamewasused/OFscraper/main/src/scraper.js)
