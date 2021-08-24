@@ -5,6 +5,8 @@ This is some quick code I put together to get all your images and videos downloa
 3. If you have a lot of images and videos to download, the tool will probably take a long time to finish.
 4. This code is safe and does nothing except click through your browser and copy links to images. It also cannot be used by users to download model content, it only works on the model side of onlyfans.
 
+If you have questions about it, problems getting it to work, or for anything else, find me on Twitter @helper_tip
+
 If you used the tool and want to show some appreciation, here's a way you can do that!
 
 <a href='https://ko-fi.com/tiphelper' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt=''/></a>
