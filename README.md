@@ -23,3 +23,5 @@ This is some quick code I put together to get all your images and videos downloa
 4. Paste the links from the links.txt file and hit the download button.
 5. If you have a lot of content, I recommend splitting the links into chunks small enough from chrome and your internet to handle.
 
+# Video walkthrough
+https://user-images.githubusercontent.com/40132689/130573817-819ef916-2617-421c-9bc5-2a2c7607abd5.mp4
