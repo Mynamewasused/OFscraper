@@ -1,9 +1,9 @@
 # Intro
 This is some quick code I put together to get all your images and videos downloaded from Onlyfans. A few quick disclaimers:
-1. I haven't done much testing for people using things other than chrome on a Windows PC. Try to create an issue on here if it doesn't work for you.
-2. It may very well crash your browser - sorry!
+1. I haven't done much testing for people using things other than chrome on a Windows PC.
+2. It can crash your browser - sorry!
 3. If you have a lot of images and videos to download, the scraper will probably take a long time to finish.
-4. This code does nothing except click through your browser and copy links to images.
+4. This code is safe and does nothing except click through your browser and copy links to images. It also cannot be used by users to download model content, it only works on the model side of onlyfans.
 
 # How to use it
 1. Copy everything from [this page.](https://raw.githubusercontent.com/Mynamewasused/OFscraper/main/src/scraper.js)
@@ -20,8 +20,9 @@ This is some quick code I put together to get all your images and videos downloa
     * Note: I have not dug into this extension very deeply, and do not know the author. Please use this with caution and at your own risk. This was just the easiest seemingly trustworthy source I found for mass downloading links.
 2. After adding Tab Save to chrome, click on the extension (it should either appear next to your address bar in chrome, or under the menu that looks like a jigsaw puzzle icon).
 3. Hit the pencil icon on the bottom left corner of the popup.
-4. Paste the links from the links.txt file and hit the download button.
-5. If you have a lot of content, I recommend splitting the links into chunks small enough from chrome and your internet to handle.
+4. Paste some links from the links.txt file and hit the download button.
+5. If you have a lot of content, definitely divide the links into smaller pieces. I was able to do about 500 at a time, but this will depend on your computer and internet speeds.
+6. Make sure you have room in your downloads folder to save everything! Or change Chrome's download directory to somewhere that does.
 
 # Video walkthrough
 https://user-images.githubusercontent.com/40132689/130573817-819ef916-2617-421c-9bc5-2a2c7607abd5.mp4
