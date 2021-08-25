@@ -37,7 +37,7 @@ function saveimage(){
     for(var c of content){
         sources.push(c.src)
         if(!linkarray.includes(c.src)) {
-            linkarray.push(c.src);
+            linkarray.push('\n' + c.src);
             currentItem++;
         }          
     }
