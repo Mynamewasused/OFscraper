@@ -1,5 +1,5 @@
 # Read this!
-### This tool is something you run on your own browser.
+### This is a tutorial for how to run a piece of code that saves all your OnflyFans content to your computer since OF doesn't provide a good way to do this. It doesn't need your login info, doesn't send any of your data anywhere, and isn't something users can abuse to save your content. There is a video tutorial on the bottom of this page for how to use it.
 ### What it does:
 * Scrolls down through your vault to load all your content.
 * Clicks on each item and copies the url for the image or video.
