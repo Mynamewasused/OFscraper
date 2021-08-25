@@ -1,3 +1,17 @@
+# Read this!
+### This tool is something you run on your own browser.
+### What it does:
+* Scrolls down through your vault to load all your content.
+* Clicks on each item and copies the url for the image or video.
+* Saves all the urls to a text file.
+### What it does not do:
+* Does not connect to any server anywhere.
+* Does not save your links anywhere but on your own computer.
+* Does not allow users to use this tool in any way to save your content (it only works on your vault, which only models can see).
+* Anything else!
+
+Please use extreme caution when using any tool that invlolves your private information and content. This is why I made this a script that is short and in pretty readable plain english rather than putting this on a website or download you have to trust.
+
 # Intro
 This is some quick code I put together to get all your images and videos downloaded from Onlyfans. A few quick disclaimers:
 1. I haven't done any testing of the code other than with chrome on a Windows PC.
