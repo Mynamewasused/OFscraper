@@ -1,8 +1,11 @@
 var linkarray = [];
 var lastSources = [];
 var currentItem = 0;
-var addedItem = false;
+var complete = false;
 var onItem = 0;
+//attach listener for resize on wrapper
+new ResizeObserver(resizeDetected).observe(document.querySelector('.main-wrapper'))  
+
 function download(data, filename, type) {
     var file = new Blob([data], {type: type});
     if (window.navigator.msSaveOrOpenBlob) // IE10+
@@ -35,8 +38,8 @@ function saveimage(){
     var content = document.querySelector(selectorStatment).querySelectorAll('img', 'source')
     var sources = [];
     for(var c of content){
-        sources.push(c.src)
-        if(!linkarray.includes(c.src)) {
+        sources.push('\n' + c.src)
+        if(!linkarray.includes('\n' + c.src)) {
             linkarray.push('\n' + c.src);
             currentItem++;
         }          
@@ -49,13 +52,18 @@ function saveimage(){
         if(onItem == 3){
             //we've reached the beginning again (or probably past it), download text file with links
             download(linkarray, "links.txt", {type:'text/plain',endings:'native'})
+            complete = true;
         } else {           
             document.querySelector(selectorStatment).querySelector('.pswp__button--arrow--right').click();
-            setTimeout(saveimage, 50) 
+            if(!complete) {
+               setTimeout(saveimage, 50) 
+            }
         }
     } else {
         document.querySelector(selectorStatment).querySelector('.pswp__button--arrow--right').click();
-        setTimeout(saveimage, 50);
+        if(!complete) {
+           setTimeout(saveimage, 50) 
+        }
     }
 }
 function resizeDetected() {
@@ -66,7 +74,6 @@ function resizeDetected() {
         openFirstImage()
     }
 }
-//attach listener for resize on wrapper
-new ResizeObserver(resizeDetected).observe(document.querySelector('.main-wrapper'))  
+
 //begin scrolling
 window.scrollTo(0,document.body.scrollHeight);
